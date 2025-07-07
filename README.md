@@ -11,7 +11,7 @@
 ![alt text](https://github.com/llenar/HAProxy/blob/main/screen/Srv%201%202.png)
 
 Настройте балансировку Round-robin на 4 уровне.
-
+Конфигурационный файл -> https://github.com/llenar/HAProxy/blob/main/screen/haproxy-hw-1.cfg
 
 ```
 global
@@ -82,4 +82,6 @@ listen web_tcp
 
 На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 ![alt text](https://github.com/llenar/HAProxy/blob/main/screen/haproxy.png)
+
+
 
